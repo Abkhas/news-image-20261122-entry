@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
-"""Entry program for make.fun news-image-20261122, v2 (evening edition).
+"""Entry program for make.fun news-image-20261122, v3 (first build under
+the 3-gate doctrine: paid-winner structure + 300px eye-check first, duel
+as confirmation only).
 
-The evening image is drawn by draw_n22v2.py in this same session and
-saved next to this file as entry.png (1024x1024, Sunday 22 November
-2026 world news: 39 stories in the dense family, 7 regions, drawn
-scenes, DATE CHECK box, world map). This program's only job is to
-place that exact file at the grader's output path.
+The v3 image is drawn by draw_n22v3.py in this same session and saved
+next to this file as entry.png (1024x1024, Sunday 22 November 2026 world
+news: 30 stories -- 3 heroes + 12 grid cards + 15 ALSO ON lines -- with a
+verification-status chip on every card and every line, a map in its own
+clean band, and a DATE CHECK box labelled READ THIS FIRST). This
+program's only job is to place that exact file at the grader's output
+path.
 
-Standard library only. No network, no randomness, no writes other
-than the single copy: both grader runs produce identical bytes.
+Standard library only. No network, no randomness, no writes other than
+the single copy: both grader runs produce identical bytes.
 """
 
 import os
