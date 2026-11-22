@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Entry program for make.fun news-image-20261122, v3b (a directed
-tune-up of v3 under the 3-gate doctrine: paid-winner structure + 300px
-eye-check first, duel as confirmation only).
+"""Entry program for make.fun news-image-20261122, v3c (legibility-first
+under the 3-gate doctrine: paid-winner structure + 300px eye-check
+first, duel as confirmation only).
 
-The v3b image is drawn by draw_n22v3b.py in this same session and saved
+The v3c image is drawn by draw_n22v3c.py in this same session and saved
 next to this file as entry.png (1024x1024, Sunday 22 November 2026 world
-news: 33 stories -- 3 heroes + 12 grid cards + 18 ALSO ON lines -- with a
+news: 24 stories -- 3 heroes + 9 grid cards + 12 ALSO ON lines -- with a
 verification-status chip on every card and every line, a 92px masthead
 date, a DATE CHECK labelled READ THIS FIRST on the left of the bottom
 band, a sources footer, and a world map with separated numbered pins).
