@@ -144,48 +144,48 @@ CARDS = [
     # --- Europe
     dict(num=4, region="EUROPE", kicker="KYIV  ·  POLITICS", scene="speech",
          chip=None, title="Zelensky: Putin is a \u2018killer\u2019",
-         body=("Trump called Putin a \u2018friend\u2019; Zelensky told CNN he "
-               "\u2018is killing each day and night\u2019."),
+         body=("Trump called Putin a \u2018friend\u2019; Zelensky: he "
+               "\u2018is killing each day\u2019."),
          source="CNN  ·  BBC"),
     dict(num=5, region="EUROPE", kicker="COPENHAGEN  ·  SECURITY", scene="shield",
          chip=None, title="Denmark expels Russian attach\u00e9",
-         body=("Copenhagen blames Russian intelligence for a foiled plot to "
+         body=("Denmark blames Russia for a foiled plot to "
                "kill rapper Kyivstoner."),
          source="BBC  ·  Reuters"),
     dict(num=6, region="EUROPE", kicker="TALLINN  ·  BORDER", scene="barrier",
          chip="1 Dec", title="Estonia to shut Russia border",
          body=("All road crossings close from 1 December after a GRU "
-               "sabotage attempt."),
+               "sabotage bid."),
          source="Estonian MFA"),
     dict(num=7, region="EUROPE", kicker="WARSAW  ·  NATO", scene="plane",
          chip=None, title="NATO chief heads to Warsaw",
-         body=("Mark Rutte visits Poland on Saturday after Russian missiles "
+         body=("Rutte visits Poland after Russian missiles "
                "landed during allied drills."),
          source="Helsinki Times"),
     dict(num=8, region="EUROPE", kicker="LONDON  ·  CHRISTMAS", scene="tree",
          chip=None, title="Oslo tree sails for London",
-         body=("Trafalgar Square\u2019s Christmas tree sets off from Oslo on its "
-               "journey to London."),
+         body=("Trafalgar Square\u2019s Christmas tree sets off from Oslo for "
+               "London."),
          source="BBC"),
     dict(num=9, region="EUROPE", kicker="BRUSSELS  ·  BUDGET", scene="market",
          chip=None, title="EU chiefs propose budget cuts",
-         body=("Leaders propose cuts to the 2028\u201334 EU budget and suggest a "
-               "tax on digital platforms."),
+         body=("Leaders propose cuts to the 2028\u201334 EU budget plus a "
+               "tech tax."),
          source="EU wires, 22 Nov"),
     # --- Middle East
     dict(num=10, region="MIDDLE EAST", kicker="STRAIT OF HORMUZ", scene="ship",
          chip="2", title="Two tankers hit off Oman",
-         body=("UK maritime agency reports two tankers struck by projectiles "
+         body=("UK agency reports two tankers struck by projectiles "
                "near Khasab."),
          source="UKMTO  ·  Al Jazeera"),
     dict(num=11, region="MIDDLE EAST", kicker="WASHINGTON  ·  TEHRAN", scene="flags",
          chip=None, title="Trump seeks \u2018permanent\u2019 Iran deal",
-         body=("Washington pushes for a lasting nuclear deal as tanker attacks "
-               "mount in the Strait of Hormuz."),
+         body=("Washington pushes for a lasting nuclear deal as attacks "
+               "mount."),
          source="AP  ·  Reuters"),
     dict(num=12, region="MIDDLE EAST", kicker="QESHM ISLAND", scene="blast",
          chip=None, title="Iran: Qeshm blasts were disposal",
-         body=("Tehran says blasts on Qeshm Island were US munitions disposal, "
+         body=("Tehran: Qeshm blasts were munitions disposal, "
                "not a fresh attack."),
          source="Times of India, 22 Nov"),
     dict(num=13, region="MIDDLE EAST", kicker="GAZA", scene="rubble",
@@ -196,23 +196,22 @@ CARDS = [
     # --- Africa
     dict(num=14, region="AFRICA", kicker="BAYELSA  ·  NIGERIA", scene="boat",
          chip="23", title="Boat toll rises to 23",
-         body=("The death toll climbs in Nigeria\u2019s Bayelsa boat accident; "
-               "the governor orders a probe."),
+         body=("Death toll climbs in Nigeria\u2019s Bayelsa boat accident; "
+               "a probe opens."),
          source="Punch  ·  Channels TV"),
     dict(num=15, region="AFRICA", kicker="MOGADISHU  ·  DIPLOMACY", scene="flags",
          chip=None, title="Somalia expels UAE envoy",
-         body=("Mogadishu orders out the Emirates ambassador as a diplomatic "
-               "row deepens in the Horn."),
+         body=("Mogadishu expels the UAE envoy; a diplomatic row deepens."),
          source="Juba Global"),
     dict(num=16, region="AFRICA", kicker="ADDIS ABABA  ·  CONFLICT", scene="people",
          chip="700k", title="700,000 flee Ethiopia fighting",
          body=("Conflict in southern Ethiopia displaces around 700,000 people, "
-               "monitors report."),
+               ""),
          source="Juba Global"),
     dict(num=17, region="AFRICA", kicker="CAIRO  ·  ECONOMY", scene="bank",
          chip="$2.3bn", title="Egypt nears $2.3bn IMF payout",
-         body=("A staff-level deal could unlock fresh IMF financing as Egypt\u2019s "
-               "recovery gains pace."),
+         body=("A staff-level deal could unlock fresh IMF financing for Egypt."
+               ""),
          source="Trendsnafrica"),
     dict(num=18, region="AFRICA", kicker="CONGO  ·  HEALTH", scene="health",
          chip=None, title="Ebola child deaths alarm WHO",
@@ -220,8 +219,8 @@ CARDS = [
          source="WHO  ·  Juba Global"),
     dict(num=19, region="AFRICA", kicker="CAF  ·  FOOTBALL", scene="sport",
          chip="6", title="AFCON 2027 host cities named",
-         body=("CAF names six host cities across Kenya, Tanzania and Uganda for "
-               "the 2027 finals."),
+         body=("CAF names six host cities in Kenya, Tanzania and Uganda for "
+               "2027."),
          source="CAF"),
     # --- Asia
     dict(num=20, region="ASIA", kicker="KATHMANDU  ·  DELHI", scene="flags",
@@ -231,18 +230,18 @@ CARDS = [
          source="Indian wires"),
     dict(num=21, region="ASIA", kicker="TOKYO  ·  DEFENCE", scene="missile",
          chip=None, title="Japan to train live-fire in India",
-         body=("Tokyo and Delhi sign a deal letting Japanese forces fire "
+         body=("Japan signs a deal to fire "
                "missiles at Indian ranges."),
          source="India-Japan 2+2 statement"),
     dict(num=22, region="ASIA", kicker="PATNA  ·  BIHAR", scene="bridge",
          chip=None, title="Modi opens Nitish Setu",
-         body=("The prime minister inaugurates the Nitish Setu bridge linking "
+         body=("The PM opens the Nitish Setu bridge linking "
                "Patna and Vaishali in Bihar."),
          source="Daily Jagran"),
     dict(num=23, region="ASIA", kicker="SEOUL  ·  EXAMS", scene="exam",
          chip="$75k", title="$75,000 for exam-cheat tips",
-         body=("South Korea repeats a $75,000 bounty for reports of "
-               "cheating on exams."),
+         body=("South Korea repeats a $75,000 bounty for "
+               "exam-cheating tips."),
          source="Wires, 22 Nov"),
     dict(num=24, region="ASIA", kicker="WELLINGTON  ·  CRICKET", scene="sport",
          chip=None, title="India dig in at Wellington",
@@ -257,33 +256,33 @@ CARDS = [
          source="Wires, 22 Nov"),
     dict(num=26, region="AMERICAS", kicker="WASHINGTON  ·  CYBER", scene="tech",
          chip=None, title="FBI probes database hack",
-         body=("The bureau is investigating an apparent hack of its criminal "
+         body=("FBI probes an apparent hack of its criminal "
                "database."),
          source="BBC"),
     dict(num=27, region="AMERICAS", kicker="USA  ·  AVIATION", scene="plane",
          chip="6m", title="Airlines warned over al-Qaeda calls",
-         body=("FBI, DHS and TSA warn carriers of copycat-attack calls ahead of "
-               "Thanksgiving; no specific threat."),
+         body=("US agencies warn airlines of copycat attacks; "
+               "no specific threat."),
          source="CNN"),
     dict(num=28, region="AMERICAS", kicker="NEW YORK  ·  COURTS", scene="court",
          chip="19y", title="Gupta gets 19 years in Pannun plot",
-         body=("A US court jails Nikhil Gupta for 235 months over the plot "
-               "to kill activist Pannun."),
+         body=("A US court jails Nikhil Gupta for 235 months over "
+               "the Pannun murder plot."),
          source="Reuters"),
     dict(num=29, region="AMERICAS", kicker="SINALOA  ·  MEXICO", scene="shield",
          chip="11", title="Cartel boss seized; 11 killed",
-         body=("Mexico captures FBI most-wanted \u2018El Chapo Isidro\u2019; "
-               "gunmen torch trucks, halt a ball game."),
+         body=("Mexico seizes FBI most-wanted \u2018El Chapo Isidro\u2019; "
+               "gunmen torch trucks."),
          source="AP"),
     dict(num=30, region="AMERICAS", kicker="BRASILIA  ·  BRAZIL", scene="health",
          chip=None, title="Bolsonaro in intensive care",
          body=("Brazil\u2019s jailed ex-president is stable with a bowel "
-               "obstruction; no discharge date set."),
+               "obstruction."),
          source="Reuters"),
     # --- Oceania
     dict(num=31, region="OCEANIA", kicker="CANBERRA  ·  CRICKET", scene="sport",
          chip=None, title="Cummins keeps captaincy",
-         body=("Pat Cummins wins Cricket Australia\u2019s unanimous backing to "
+         body=("Pat Cummins wins unanimous backing to "
                "stay on as Test captain."),
          source="Daily Jagran"),
     # --- World
@@ -294,7 +293,7 @@ CARDS = [
          source="Reuters"),
     dict(num=33, region="WORLD", kicker="MARKETS", scene="market",
          chip="-3%", title="Markets sell off; oil slides",
-         body=("Stocks fall on AI and rate worries as Nvidia tumbles; crude "
+         body=("Stocks fall on AI and rate worries; crude "
                "drops more than 3%."),
          source="Wires"),
 ]
@@ -967,11 +966,11 @@ def build():
     d.text((bx0 + 10, by0 + 6), "DATE CHECK", font=F_BOLD(10), fill=RED)
     dc_lines = []
     for sent in [
-        "Every story above happened, or was first reported, on 20\u201322 "
-        "November 2026 \u2014 the weekend\u2019s news as of Sunday morning.",
+        "Every story was first reported on 22 November 2026 in some time "
+        "zone, or is a Sunday development of a continuing story.",
+        "Left out as earlier news: Peru quake, Basra fire, Akvan landfall, "
+        "Iran\u2019s Kuwait strikes, South Africa\u2019s elections.",
         "Nothing here is from before 13 November 2026.",
-        "Later Sunday news (a COP31 deal, if one lands) is not in this "
-        "picture.",
     ]:
         dc_lines.extend(wrap(d, sent, F_REG(9), W - 8 - bx0 - 20))
     block(d, bx0 + 10, by0 + 22, dc_lines, F_REG(9), (40, 44, 52), 12)
