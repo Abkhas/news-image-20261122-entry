@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Entry program for make.fun news-image-20261122, v3d (Khase eye-check
-fixes on v3c's legibility-first base, under the 3-gate doctrine:
-paid-winner structure + 300px eye-check first, duel as confirmation
-only).
+"""Entry program for make.fun news-image-20261122, v3e (Khase's second
+eye-check fixes on v3d's legibility-first base, under the 3-gate
+doctrine: paid-winner structure + 300px eye-check first, duel as
+confirmation only).
 
-The v3d image is drawn by draw_n22v3d.py in this same session and saved
+The v3e image is drawn by draw_n22v3e.py in this same session and saved
 next to this file as entry.png (1024x1024, Sunday 22 November 2026 world
 news: 24 stories -- 3 heroes + 9 grid cards + 12 ALSO ON lines -- with a
 verification-status chip on every card and every line, a 70px masthead
