@@ -121,9 +121,9 @@ HEROES = [
          source="Helsinki Times  ·  Reuters"),
     dict(num=2, region="WORLD", kicker="ANTALYA  ·  CLIMATE",
          scene="conference", chip="35%",
-         title="COP31 deal drops fossil fuels",
-         body=("The final text never names coal, oil or gas -- and the "
-               "vote is still to come."),
+         title="COP31 collapses \u2014 no deal",
+         body=("Rejected at the closing plenary: no consensus. "
+               "The EU spurned a text naming no fossil fuels."),
          source="Reuters  ·  AP"),
     dict(num=3, region="EUROPE", kicker="KYIV REGION  ·  WAR",
          scene="nightstrike", chip="186",
@@ -232,7 +232,7 @@ TIMELINE = [
     ("07:04", "Drone destroys Dymer block"),
     ("08:05", "Sparta II still burning"),
     ("08:41", "IRGC names Bahrain targets"),
-    ("10:30", "COP31 'close to deal'"),
+    ("19:09", "COP31 deal rejected"),
 ]
 
 STATS = [
@@ -622,8 +622,8 @@ DATE_CHECK = [
     "(20-21 Nov), Iran's 18 Nov Kuwait strikes, Russia's 20 Nov air "
     "assault, the EU-Indonesia deal (signed Sat), South Africa's "
     "elections (4 Nov).",
-    "Not yet: COP31 adoption -- the plenary was delayed and no vote was "
-    "confirmed by this evening.",
+    "COP31 collapsed on Sunday -- the closing plenary rejected the "
+    "deal: no consensus, nothing adopted.",
     "Nothing here is from before 13 November 2026.",
 ]
 
@@ -644,7 +644,7 @@ def masthead(d, total):
            % total, font=F_BOLD(9), fill=GREY, anchor="ra")
     d.text((8, 24), "Sunday 22 November 2026", font=F_TITLE(48), fill=INK)
     d.text((8, 76),
-           "COP31 drops fossil fuels  \u00b7  Sparta II still burning  "
+           "COP31 collapses  \u00b7  Sparta II still burning  "
            "\u00b7  186 drones hit Ukraine",
            font=F_SERIF(14), fill=(60, 64, 72))
     d.line([8, 96, W - 8, 96], fill=RED, width=2)
